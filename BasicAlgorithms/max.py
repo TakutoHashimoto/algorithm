@@ -1,4 +1,6 @@
-def max_value(A :list) ->int:
+from typing import List
+
+def max_value(A: List[int]) -> int:
     '''
     リストの最大値を求める
     '''
@@ -11,5 +13,6 @@ def max_value(A :list) ->int:
     
     return max
 
-A = list(map(int, input().split()))
-print(max_value(A))
+if __name__ == '__main__':
+    A = list(map(int, input().split()))
+    print(max_value(A))

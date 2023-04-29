@@ -1,4 +1,4 @@
-def gcd(a :int, b :int) ->int:
+def gcd(a: int, b: int) -> int:
     '''
     aとbの最大公約数を求める
     '''
@@ -10,5 +10,6 @@ def gcd(a :int, b :int) ->int:
     
     return a
 
-a, b = map(int, input().split())
-print(gcd(a, b))
+if __name__ == '__main__':
+    a, b = map(int, input().split())
+    print(gcd(a, b))

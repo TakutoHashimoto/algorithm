@@ -1,4 +1,4 @@
-def convert(S :str) ->int:
+def convert(S: str) -> int:
     '''
     文字列を数値に変換する
     '''

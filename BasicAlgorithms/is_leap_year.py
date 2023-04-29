@@ -1,4 +1,4 @@
-def is_leap_year(year :int) ->bool:
+def is_leap_year(year: int) -> bool:
     '''
     yearがうるう年か判定する
     '''
@@ -7,5 +7,6 @@ def is_leap_year(year :int) ->bool:
     else:
         return False
 
-year = int(input())
-print(is_leap_year(year))
+if __name__ == '__main__':
+    year = int(input())
+    print(is_leap_year(year))
