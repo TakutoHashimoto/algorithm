@@ -31,7 +31,7 @@ def linear_search(numbers: List[int], value: int) -> IndexNum:
 
 def binary_search(numbers: List[int], value: int) -> IndexNum:
     '''
-    再帰を使って二分探索を実装する
+    上記の二分探索を再帰を使って実装してみる
     '''
     def _binary_search(numbers: List[int], value: int, left: IndexNum, right: IndexNum) -> IndexNum:
         if left > right:
