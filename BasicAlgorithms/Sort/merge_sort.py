@@ -1,9 +1,10 @@
 from typing import List
 
+
 def merge_sort(numbers: List[int]) -> List[int]:
     if len(numbers) <= 1:
         return numbers
-    
+
     center = len(numbers) // 2
     left = numbers[:center]
     right = numbers[center:]
@@ -19,19 +20,19 @@ def merge_sort(numbers: List[int]) -> List[int]:
         else:
             numbers[k] = right[j]
             j += 1
-        
+
         k += 1
-    
+
     while i < len(left):
         numbers[k] = left[i]
         i += 1
         k += 1
-    
+
     while j < len(right):
         numbers[k] = right[j]
         j += 1
         k += 1
-    
+
     return numbers
 
 

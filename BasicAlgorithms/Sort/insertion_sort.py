@@ -1,5 +1,6 @@
 from typing import List
 
+
 def insertion_sort(numbers: List[int]) -> List[int]:
     len_numbers = len(numbers)
 
@@ -10,9 +11,9 @@ def insertion_sort(numbers: List[int]) -> List[int]:
         while j >= 0 and numbers[j] > temp:
             numbers[j+1] = numbers[j]
             j -= 1
-        
+
         numbers[j+1] = temp
-    
+
     return numbers
 
 

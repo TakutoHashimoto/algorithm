@@ -3,6 +3,7 @@ import random
 # 型ヒント
 from typing import List
 
+
 def is_in_order(numbers: List[int]) -> bool:
     '''
     リストの要素が昇順になっているかチェックする
@@ -12,8 +13,8 @@ def is_in_order(numbers: List[int]) -> bool:
     # for i in range(len(numbers)-1):
     #     if numbers[i] > numbers[i+1]:
     #         return False
-    
     # return True
+
 
 def bogo_sort(numbers: List[int]) -> List[int]:
     '''
@@ -24,6 +25,7 @@ def bogo_sort(numbers: List[int]) -> List[int]:
         random.shuffle(numbers)
 
     return numbers
+
 
 if __name__ == '__main__':
     nums = [random.randint(0, 1000) for _ in range(10)]

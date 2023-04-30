@@ -1,11 +1,12 @@
 from typing import List
 
+
 def cocktail_sort(numbers: List[int]) -> List[int]:
     len_numbers = len(numbers)
     swapped = True
     start = 0
     end = len_numbers - 1
-    
+
     while swapped:
         swapped = False
 
@@ -13,7 +14,7 @@ def cocktail_sort(numbers: List[int]) -> List[int]:
             if numbers[i] > numbers[i+1]:
                 numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
                 swapped = True
-        
+
         if not swapped:
             break
 
@@ -24,10 +25,11 @@ def cocktail_sort(numbers: List[int]) -> List[int]:
             if numbers[i] > numbers[i+1]:
                 numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
                 swapped = True
-        
+
         start += 1
-    
+
     return numbers
+
 
 if __name__ == '__main__':
     import random
