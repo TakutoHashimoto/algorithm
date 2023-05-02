@@ -21,7 +21,7 @@
 | Sort | Ave | Best | Worst | Stable | Comment |
 | - | - | - | - | - | - |
 | bogo | $O((n+1)!)$ | $O(n)$ | Unbound | No | - |
-| bubble |  |  |  |  |  |
+| **bubble** | $O(n^2)$ | $O(n)$ | $O(n^2)$ | Yes | - |
 | cocktail |  |  |  |  |  |
 | comb |  |  |  |  |  |
 | selection |  |  |  |  |  |
