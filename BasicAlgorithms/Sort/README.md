@@ -2,16 +2,17 @@
 **太字**のものは重要
 * Bogoソート
 * **Bubbleソート**
-* Cocktailソート（カクテルソート、シェーカーソート）
-* Combソート
-* **Selectionソート（選択法）**
-* Gnomeソート
+    * Cocktailソート（カクテルソート、シェーカーソート）
+    * Combソート
+    * **Selectionソート（選択法）**
+    * Gnomeソート
 * **Insertionソート（挿入法）**
-* Bucketソート
-* Shellソート
+    * Bucketソート
+    * Shellソート
 * Countソート
-* Radixソート
+    * Radixソート
 * **Quickソート**
 * **Mergeソート**
 * **Heapソート**
 * Timソート
+    * insertionソートとmergeソートを使用している
