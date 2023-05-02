@@ -16,3 +16,16 @@
 * **Heapソート**
 * Timソート
     * insertionソートとmergeソートを使用している
+
+## 早見表
+| Sort | Ave | Best | Worst | Stable | Comment |
+| - | - | - | - | - | - |
+| bogo | $O((n+1)!)$ | $O(n)$ | Unbound | No | - |
+| bubble |  |  |  |  |  |
+| cocktail |  |  |  |  |  |
+| comb |  |  |  |  |  |
+| selection |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
